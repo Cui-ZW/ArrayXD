@@ -36,19 +36,19 @@ public:
 	ArrayXD& operator=(const T &val);
 
 	ArrayXD& operator+=(const ArrayXD&);
-    ArrayXD& operator-=(const ArrayXD&);
-    ArrayXD& operator*=(const ArrayXD&);
+    	ArrayXD& operator-=(const ArrayXD&);
+    	ArrayXD& operator*=(const ArrayXD&);
 	ArrayXD& operator/=(const ArrayXD&);
 	ArrayXD& operator+=(const T &val);
 	ArrayXD& operator-=(const T &val);
-    ArrayXD& operator*=(const T &val);
+   	ArrayXD& operator*=(const T &val);
 	ArrayXD& operator/=(const T &val);
 
 	ArrayXD operator+(const ArrayXD&);
 	ArrayXD operator-(const ArrayXD&);
 	ArrayXD operator*(const ArrayXD&);
 	ArrayXD operator/(const ArrayXD&);
-    ArrayXD operator+(const T &val);
+    	ArrayXD operator+(const T &val);
 	ArrayXD operator-(const T &val);
 	ArrayXD operator*(const T &val);
 	ArrayXD operator/(const T &val);
