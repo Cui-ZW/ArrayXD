@@ -1,6 +1,6 @@
 // ArrayXD.h
-#ifndef MATRIX_H_
-#define MATRIX_H_
+#ifndef ARRAYXD_H_
+#define ARRAYXD_H_
 #include <iostream>
 #include <complex>
 #include <math.h>
